@@ -12,4 +12,7 @@ Proje kapsaminda su calismalar yurutulecektir;
 -
 
 ilk sketch
-<IMG SRC=https://github.com/barisdinc/Aselsan_Boynuz/blob/master/3D/Aselsan_Boynum_sketch.jpg>
+<IMG SRC=https://github.com/barisdinc/Aselsan_Boynuz/blob/master/3D/Aselsan_Boynum_ilk_sketch.jpg>
+
+<B>NOT</BR>
+Projede 3D cizim yapabileceklerin destegine ihtiyacimiz olacaktir
