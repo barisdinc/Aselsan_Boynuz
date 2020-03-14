@@ -12,4 +12,4 @@ Proje kapsaminda su calismalar yurutulecektir;
 -
 
 ilk sketch
-https://github.com/barisdinc/Aselsan_Boynuz/blob/master/3D/Aselsan_Boynum_sketch.jpg
+<IMG SRC=https://github.com/barisdinc/Aselsan_Boynuz/blob/master/3D/Aselsan_Boynum_sketch.jpg>
