@@ -7,7 +7,7 @@ Proje kapsaminda su calismalar yurutulecektir;
 - Hizli frekans ilerlemesi icin yukar/asagi tusu yerine rotartu encoder koyulacaktir
 - Dis kutu eskisi ile ayni videlama noktalarina sahip yeni tasarim bir 3d printer da bastirilabilir kutu ile degistirilecektir
 - Is aydinlatmasi mevcut ASELSAN dan daha yuksek olacaktir
--
+- Eger Bluetooth modulu takilirsa cep telefonuna koyulacak bir yazilimla yonetilmesi saglanabilir...
 -
 -
 
