@@ -10,9 +10,13 @@ Proje kapsaminda su calismalar yurutulecektir;
 - Eger Bluetooth modulu takilirsa cep telefonuna koyulacak bir yazilimla yonetilmesi saglanabilir...
 -
 -
+<B>NOT</BR>
+Projede 3D cizim yapabileceklerin destegine ihtiyacimiz olacaktir
+
 
 ilk sketch
 <IMG SRC=https://github.com/barisdinc/Aselsan_Boynuz/blob/master/3D/Aselsan_Boynum_ilk_sketch.jpg>
 
-<B>NOT</BR>
-Projede 3D cizim yapabileceklerin destegine ihtiyacimiz olacaktir
+ilk donanim tasarimi
+<IMG SRC=https://github.com/barisdinc/Aselsan_Boynuz/blob/master/Donanim/Tasarim_2.jpg>
+
