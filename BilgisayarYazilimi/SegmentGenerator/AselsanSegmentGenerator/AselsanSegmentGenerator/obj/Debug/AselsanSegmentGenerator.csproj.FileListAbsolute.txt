@@ -1,0 +1,10 @@
+C:\Users\Toygar\source\repos\AselsanSegmentGenerator\AselsanSegmentGenerator\obj\Debug\AselsanSegmentGenerator.csprojAssemblyReference.cache
+C:\Users\Toygar\source\repos\AselsanSegmentGenerator\AselsanSegmentGenerator\obj\Debug\AselsanSegmentGenerator.Form1.resources
+C:\Users\Toygar\source\repos\AselsanSegmentGenerator\AselsanSegmentGenerator\obj\Debug\AselsanSegmentGenerator.Properties.Resources.resources
+C:\Users\Toygar\source\repos\AselsanSegmentGenerator\AselsanSegmentGenerator\obj\Debug\AselsanSegmentGenerator.csproj.GenerateResource.cache
+C:\Users\Toygar\source\repos\AselsanSegmentGenerator\AselsanSegmentGenerator\obj\Debug\AselsanSegmentGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Toygar\source\repos\AselsanSegmentGenerator\AselsanSegmentGenerator\bin\Debug\AselsanSegmentGenerator.exe.config
+C:\Users\Toygar\source\repos\AselsanSegmentGenerator\AselsanSegmentGenerator\bin\Debug\AselsanSegmentGenerator.exe
+C:\Users\Toygar\source\repos\AselsanSegmentGenerator\AselsanSegmentGenerator\bin\Debug\AselsanSegmentGenerator.pdb
+C:\Users\Toygar\source\repos\AselsanSegmentGenerator\AselsanSegmentGenerator\obj\Debug\AselsanSegmentGenerator.exe
+C:\Users\Toygar\source\repos\AselsanSegmentGenerator\AselsanSegmentGenerator\obj\Debug\AselsanSegmentGenerator.pdb
