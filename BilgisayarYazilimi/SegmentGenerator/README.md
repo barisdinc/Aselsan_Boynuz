@@ -15,5 +15,5 @@ Bu da 20 bitlik karakter kodunda 0,1 ve 2. bitlere denk geliyor.
 Sonuç olarak 7 rakamının karşılığı 11100000000000000 oluyor.
 
 
-![Segment2](SegmentGeneratorSS.png.png)
+![Segment2](SegmentGeneratorSS.png)
 
