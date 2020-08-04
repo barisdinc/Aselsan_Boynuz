@@ -13,6 +13,37 @@ Proje kapsaminda su calismalar yurutulecektir;
 <B>NOT</BR>
 Projede 3D cizim yapabileceklerin destegine ihtiyacimiz olacaktir
 
+# Donanım Seçimi Konusunda Fikirler
+
+### MCU Seçimi
+- 1.İhtimal Barış Dinç (TA7W) Hocanın hurdadan temin etmiş olduğu MSP430 MCUları kullanmak. Bu durumda yazacağımız kodun 16K'dan küçük olması lazım ki tüm MCU'lara fit etsin
+  - MSP430FE427IPMR  - 32K Depolama
+  - MSP430FE425AIMPR - 16K Depolama
+  - MSP430F436IPZR   - 24K Depolama
+  
+- 2.İhtimal Sıradan bir arduino MCU kullanmak. 
+
+### Ekran Seçimi
+- SPI TFT LCD Kullanabiliriz. 
+- Grafik LCD Kullanabiliriz. (Bu durumda MCP23017 gibi bir I/O Expander kullanıp I2C ile sürmek gerekiyor ekranı. Maliyet olarak fazla olabilir)
+- 4x20 , 4x16 gibi Çok Satırlı Karakter LCD kullanabiliriz I2C Backpack ile. 
+
+### Tuş Takımı
+Varolan tuş takımını yeni kutuya taşımamız gerekecek. Bu durumda ekstra bir tuş takımına ihtiyaç olacak. Hali hazırda Up/Down işlemini Rotary Encoder ile halleder isek 2 buton eksik olacak şekilde 12 adet nümerik kısım için , 6 adet de fonksiyon tuşları için totalde 18 adet butona ihtiyaç var. Haliyle bu butonların da MCU'ya direkt ya da PCF8574 gibi bir expander üzerinden I2C hattına dahil edilmesi gerek.
+
+
+### PIN Sayısı Konusu
+
+| Fonksiyon             | Gereken Pin Sayısı  | Açıklama |
+|-----------------------|:--------------------:|----------|
+| I2C                   |          2          |Telsizden LCD bilgisini almak ,yeni LCD'ye veri yazmak, keypad bilgisini göndermek için|   
+| Indicator Leds        |          3          |Yeşil , Kırmızı , Turuncu Ledleri Yakmak İçin                    |
+| Keypad Interrupt      |          1          |Telsizin MCU'suna Tuşa Basıldı Bilgisini Göndermek için          |  
+| Rotary Encoder        |          2          |Rotary Encoder Dönüş Yönünü Okumak İçin.Ekstra olarak Buton ile Kullanılırsa +1| 
+| Keypad                |          9          |3x6 Matrix şeklinde düşünürsek ve **I2C için bir IC kullanmazsak.**  |
+| **Total**                 |         **17**      ||
+
+
 
 # Yapılacaklar Listesi
 - [x]  Font Decoding Algoritmasının Yazılması
