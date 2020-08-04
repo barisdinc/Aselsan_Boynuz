@@ -25,7 +25,7 @@ Projede 3D cizim yapabileceklerin destegine ihtiyacimiz olacaktir
 - [ ]  Harici MCU üzerine Tuş Takımı Bağlanarak Orjinal Tuş Takımı Simülasyonu Yapılması
 - [ ]  Arduino Kodunun MSP430 için Rewrite Edilmesi
 - [ ]  Grafik LCD İle Telsizden Gelen Verilerin Ekranda Görüntülenmesi
-
+- [ ]  PCB Tasarımının Yapılması
 
 
 
