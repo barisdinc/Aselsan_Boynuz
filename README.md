@@ -14,9 +14,25 @@ Proje kapsaminda su calismalar yurutulecektir;
 Projede 3D cizim yapabileceklerin destegine ihtiyacimiz olacaktir
 
 
+# Yapılacaklar Listesi
+- [x]  Font Decoding Algoritmasının Yazılması
+- [ ]  Harici MCU üzerine Rotary Encoder Bağlanarak Channel Up/Down Simülasyonu Yapılması
+- [ ]  Tüm Karakterlerin Segment Kodlarının Oluşturulması
+- [ ]  Özel Ekran Sembolleri için Special Character Generate İşleminin Yapılması
+- [ ]  Harici MCU üzerine 1 Adet Led Bağlanarak Arka Aydınlatma Simülasyonu Yapılması
+- [ ]  Harici MCU üzerine 3 Adet Led Bağlanarak Pwr , RX , TX Led Simülasyonu Yapılması
+- [ ]  Boynuz Kasa Tasarımı için Taslak Hazırlanması
+- [ ]  Harici MCU üzerine Tuş Takımı Bağlanarak Orjinal Tuş Takımı Simülasyonu Yapılması
+- [ ]  Arduino Kodunun MSP430 için Rewrite Edilmesi
+- [ ]  Grafik LCD İle Telsizden Gelen Verilerin Ekranda Görüntülenmesi
+
+
+
+
+
 ilk sketch
 <IMG SRC=https://github.com/barisdinc/Aselsan_Boynuz/blob/master/3D/Aselsan_Boynum_ilk_sketch.jpg>
 
 ilk donanim tasarimi
-<IMG SRC=https://github.com/barisdinc/Aselsan_Boynuz/blob/master/Donanim/Tasarim_2.jpg>
+<IMG SRC=https://github.com/barisdinc/Aselsan_Boynuz/blob/master/Donanim/Tasarim/Tasarim_2.jpg>
 
