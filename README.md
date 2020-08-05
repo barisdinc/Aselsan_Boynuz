@@ -19,4 +19,4 @@ ilk sketch
 
 ilk donanim tasarimi
 <IMG SRC=https://github.com/barisdinc/Aselsan_Boynuz/blob/master/Donanim/Tasarim_2.jpg>
-
+<IMG SRC=https://github.com/barisdinc/Aselsan_Boynuz/blob/master/3D/Aselsan-48xx_Boynuz_Alt12.png>
