@@ -65,7 +65,6 @@ ilk sketch
 <IMG SRC=https://github.com/barisdinc/Aselsan_Boynuz/blob/master/3D/Aselsan_Boynum_ilk_sketch.jpg>
 
 ilk donanim tasarimi
-
-
-<IMG SRC=https://github.com/barisdinc/Aselsan_Boynuz/blob/master/Donanim/Tasarim/Tasarim_2.jpg>
+<IMG SRC=https://github.com/barisdinc/Aselsan_Boynuz/blob/master/Donanim/Tasarim_2.jpg>
+<IMG SRC=https://github.com/barisdinc/Aselsan_Boynuz/blob/master/3D/Aselsan-48xx_Boynuz_Alt12.png>
 
