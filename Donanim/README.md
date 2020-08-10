@@ -9,3 +9,11 @@ Aselsan MCU'dan gelen veriyi decode edip USB seri port aracılığı ile PC'ye g
 ![Segment](Calisma/segment_1.jpeg)
 ![Segment](Calisma/segment_2.jpeg)
 ![Segment](Calisma/image.png)
+
+
+##Boynuz Tuş Takımı Yapısı
+
+
+![Segment](Calisma/KeyPad/KP_1.jpeg)
+![Segment](Calisma/KeyPad/KP_2.jpeg)
+![Segment](Calisma/KeyPad/KP_3.jpeg)
