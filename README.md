@@ -47,7 +47,7 @@ Varolan tuş takımını yeni kutuya taşımamız gerekecek. Bu durumda ekstra b
 
 # Yapılacaklar Listesi
 - [x]  Font Decoding Algoritmasının Yazılması
-- [ ]  Harici MCU üzerine Rotary Encoder Bağlanarak Channel Up/Down Simülasyonu Yapılması
+- [x]  Harici MCU üzerine Rotary Encoder Bağlanarak Channel Up/Down Simülasyonu Yapılması - 10.08.2020 - https://www.youtube.com/watch?v=eCYgr3rlo9g
 - [ ]  Tüm Karakterlerin Segment Kodlarının Oluşturulması
 - [ ]  Özel Ekran Sembolleri için Special Character Generate İşleminin Yapılması
 - [ ]  Harici MCU üzerine 1 Adet Led Bağlanarak Arka Aydınlatma Simülasyonu Yapılması

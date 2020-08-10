@@ -1,4 +1,5 @@
-
+#include <Wire.h>
+#include <RotaryEncoder.h>
 //1 Digitteki Segmentler - ABCDEFGHIJKLMNOPQ - ref.Aselsan Bakım Klavuzu 330
 
 //Bu arrayde harfleri oluşturmak için gerekli olan segmentler 1 ile diğerleri sıfır ile gösterilmiştir.
@@ -23,18 +24,76 @@ const String segmentFont[] = {
 const char segmentIndex = "ABCDEFGHIJKLMNOPQ";
 const char index[] = " KN0123456789";
 bool debug = false;
-#include <Wire.h>
+
 #define AselsanDisplayReceiveAddr 0x38
+RotaryEncoder encoder(A2, A3);
+
+#define DOWN 7
+#define UP 6
+
 
 void setup()
 {
   Serial.begin(115200);
-  Wire.begin(AselsanDisplayReceiveAddr);
+  //Wire.begin(AselsanDisplayReceiveAddr);
   Wire.setClock(10000);
-  Wire.onReceive(LCDDataReceivedHandler);
+  //Wire.onReceive(LCDDataReceivedHandler);
+
+  pinMode(UP, OUTPUT);
+  pinMode(DOWN, OUTPUT);
+
+  digitalWrite(UP, LOW);
+  digitalWrite(DOWN, LOW);
+  PCICR |= (1 << PCIE1);
+  PCMSK1 |= (1 << PCINT10) | (1 << PCINT11);
 }
 
-void loop() {}
+void loop() {
+  static int pos = 0;
+  int newPos = encoder.getPosition();
+  if (pos != newPos) {
+
+
+
+    RotaryEncoder::Direction ret = encoder.getDirection();
+    if (ret == RotaryEncoder::Direction::CLOCKWISE)
+    {
+
+      Serial.println("UP");
+
+      digitalWrite(UP, HIGH);
+      delay(200);
+      digitalWrite(UP, LOW);
+
+    }
+    else if (ret == RotaryEncoder::Direction::COUNTERCLOCKWISE)
+    {
+      Serial.println("DOWN");
+
+      digitalWrite(DOWN, HIGH);
+      delay(200);
+      digitalWrite(DOWN, LOW);
+    }
+
+    else
+    {
+      // digitalWrite(UP, LOW);
+
+
+      //Serial.println("No Rotation");
+    }
+  }
+
+
+}
+
+
+ISR(PCINT1_vect) {
+  encoder.tick();
+
+
+}
+
 
 void LCDDataReceivedHandler(int receivedByteCount)
 {
@@ -69,7 +128,7 @@ String GetPaddedBinStr(byte data)
 }
 
 
-void ExtractBitsFromReceivedI2CData(byte *data)
+void ExtractBitsFromReceivedI2CData(byte * data)
 {
   String binaryResult = "";
   String charResult = "";
